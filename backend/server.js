@@ -34,3 +34,6 @@ app.listen(PORT, () => {
     console.error('❌ MongoDB connection failed:', err.message);
     process.exit(1);
   });
+  const mongoose = require("mongoose");
+
+;
